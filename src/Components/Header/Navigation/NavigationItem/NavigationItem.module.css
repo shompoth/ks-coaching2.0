@@ -1,0 +1,18 @@
+.NavigationItem {
+  margin-right: 20px;
+}
+
+.authentification {
+  padding: 10px 15px;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+  background: #e96a37;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.authentification:hover,
+.authentification:focus {
+  background: #ce5728;
+  color: white;
+}

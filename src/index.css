@@ -7,7 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:hover,
+a:focus {
+  color: #ce5728;
+}
+
+.divGrey {
+  min-height: 100vh;
+  background: #E8E9EB;
+  clip-path: polygon(100% 0, 100% 88%, 33% 98%, 0 85%, 0 0);
+}
+
+.divWhite {
+  min-height: 100vh;
+  background: #E8E9EB;
+  clip-path: polygon(33% 98%, 100% 88%, 100% 100%, 0 100%, 0 85%);
 }
